@@ -94,7 +94,7 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FortuneVoronoi.cs">
+    <Compile Include="Fortune.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HashSet.cs">
@@ -103,12 +103,18 @@
     <Compile Include="PriorityQueue.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ToolBox.cs">
+    <Compile Include="MathTools.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="VDataNode.cs" />
     <Compile Include="Vector.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="VEdgeNode.cs" />
+    <Compile Include="VEvent.cs" />
+    <Compile Include="VNode.cs" />
+    <Compile Include="VoronoiEdge.cs" />
+    <Compile Include="VoronoiGraph.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

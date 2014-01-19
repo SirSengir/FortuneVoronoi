@@ -82,13 +82,16 @@ namespace BenTools.Mathematics {
         }
 
         public static VoronoiGraph ComputeVoronoiGraph(IEnumerable Datapoints) {
+
             BinaryPriorityQueue PQ = new BinaryPriorityQueue();
             Hashtable CurrentCircles = new Hashtable();
             VoronoiGraph VG = new VoronoiGraph();
             VNode RootNode = null;
+
             foreach (Vector V in Datapoints) {
                 PQ.Push(new VDataEvent(V));
             }
+
             while (PQ.Count > 0) {
                 VEvent VE = PQ.Pop() as VEvent;
                 VDataNode[] CircleCheckList;
@@ -119,6 +122,7 @@ namespace BenTools.Mathematics {
                     }
                 }
             }
+
             VNode.CleanUpTree(RootNode);
             foreach (VoronoiEdge VE in VG.Edges) {
                 if (VE.Done)
