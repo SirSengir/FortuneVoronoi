@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Drawing;
 
-namespace BenTools.Mathematics {
+namespace BSimulator.Utils.Voronoi {
 
     public abstract class MathTools {
         /// <summary>

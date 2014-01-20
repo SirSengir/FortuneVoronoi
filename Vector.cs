@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using BenTools.Data;
 
-namespace BenTools.Mathematics {
+namespace BSimulator.Utils.Voronoi {
 
     /// <summary>
     /// A vector class, implementing all interesting features of vectors

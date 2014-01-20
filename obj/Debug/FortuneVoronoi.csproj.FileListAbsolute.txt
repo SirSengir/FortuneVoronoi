@@ -1,5 +1,0 @@
-C:\Dev\Libraries\FortuneVoronoi\bin\Debug\FortuneVoronoi.dll
-C:\Dev\Libraries\FortuneVoronoi\bin\Debug\FortuneVoronoi.pdb
-C:\Dev\Libraries\FortuneVoronoi\obj\Debug\FortuneVoronoi.csprojResolveAssemblyReference.cache
-C:\Dev\Libraries\FortuneVoronoi\obj\Debug\FortuneVoronoi.dll
-C:\Dev\Libraries\FortuneVoronoi\obj\Debug\FortuneVoronoi.pdb

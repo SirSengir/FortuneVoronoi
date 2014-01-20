@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BenTools.Mathematics {
+namespace BSimulator.Utils.Voronoi {
 
     public class VoronoiGraph {
         public HashSet<Vector> Vertizes = new HashSet<Vector>();
